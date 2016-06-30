@@ -258,6 +258,9 @@
         scaleDown()
       }
     }
+    destWidth = Math.round(destWidth)
+    destHeight = Math.round(destHeight)
+
     if (useCanvas) {
       pixelRatio = options.pixelRatio
       if (pixelRatio > 1) {
